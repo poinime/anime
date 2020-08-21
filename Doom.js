@@ -59,7 +59,7 @@ var art = new Artplayer({
     },
     
     icons: {
-        loading: '<img src="https://artplayer.org/assets/img/ploading.gif">',
+        loading: '<div>Loading</div>',
         state: '<img src="https://artplayer.org/assets/img/state.png">',
     },
 });
