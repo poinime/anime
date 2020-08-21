@@ -59,28 +59,7 @@ var art = new Artplayer({
     },
     
     icons: {
-        loading: '<svg class="gegga">
-      <defs>
-        <filter id="gegga">
-          <feGaussianBlur in="SourceGraphic" stdDeviation="7" result="blur" />
-          <feColorMatrix
-            in="blur"
-            mode="matrix"
-            values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 20 -10"
-            result="inreGegga"
-          />
-          <feComposite in="SourceGraphic" in2="inreGegga" operator="atop" />
-        </filter>
-      </defs>
-    </svg>
-<svg class="snurra" width="200" height="200" viewBox="0 0 200 200">
-      <defs>
-        <linearGradient id="linjärGradient">
-          <stop class="stopp1" offset="0" />
-          <stop class="stopp2" offset="1" />
-        </linearGradient>
-        <linearGradient
-          y2="160"',
+        loading: '<img src="https://1.bp.blogspot.com/-yIhXlQfYN1E/WMksG192LLI/AAAAAAAAA9w/txsqdQfykVksDEFshayeN54c0Gu6C3AAwCLcB/s1600/glow.gif">',
         state: '<img src="https://artplayer.org/assets/img/state.png">',
     },
 });
