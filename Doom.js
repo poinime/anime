@@ -1,11 +1,9 @@
 var art = new Artplayer({
     container: '.artplayer-app',
+    url:'https://artplayer.org/assets/sample/video.mp4',
     title: 'One More Time One More Chance',
     poster: 'https://artplayer.org/assets/sample/poster.jpg',
     volume: 0.5,
-    isLive: false,
-    muted: false,
-    autoplay: false,
     pip: true,
     autoSize: true,
     autoMini: true,
@@ -19,9 +17,7 @@ var art = new Artplayer({
     fullscreenWeb: true,
     subtitleOffset: true,
     miniProgressBar: true,
-    localVideo: false,
     localSubtitle: true,
-    networkMonitor: false,
     mutex: true,
     light: true,
     backdrop: true,
@@ -55,10 +51,5 @@ var art = new Artplayer({
         style: {
             color: '#03A9F4',
         },
-    },
-    
-    icons: {
-        loading: '<img src="https://artplayer.org/assets/img/ploading.gif">',
-        state: '<img src="https://artplayer.org/assets/img/state.png">',
     },
 });
